@@ -1,0 +1,18 @@
+:root {
+  --primary-color: hsl(229, 7%, 55%);
+  --light-color: hsl(243, 100%, 93%);
+  --secondary-color: hsl(228, 56%, 26%);
+  --dark-color: hsl(229, 57%, 11%);
+  --max-width: 1440px;
+  --gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+}
+
+img {
+  background: url(../img/bg-mobile.png) no-repeat center center/cover;
+}
+
+@media(max-width: 375px) {
+  .container {
+    background: url(../img/bg-mobile.png);
+  }
+}
